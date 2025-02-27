@@ -6,7 +6,7 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://chat.deepseek.com/*", "https://chatgpt.com/*"], 
+      "matches": ["https://chat.deepseek.com/*", "https://chatgpt.com/*", "https://grok.com/*", "https://claude.ai/*", "https://chat.qwenlm.ai/*", "https://copilot.microsoft.com/*"], 
       "js": ["content.js"]
     }
   ]
